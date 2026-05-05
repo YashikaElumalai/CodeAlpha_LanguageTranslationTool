@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinguistFlow AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 AI Language Translator</h1>
+        
+        <div class="wrapper">
+            <div class="text-input">
+                <textarea class="from-text" placeholder="Enter text to translate..."></textarea>
+                <textarea class="to-text" placeholder="Translation" readonly></textarea>
+            </div>
+            
+            <div class="controls">
+                <div class="row from">
+                    <select id="from-lang"></select>
+                </div>
+                <div class="row to">
+                    <select id="to-lang"></select>
+                </div>
+            </div>
+
+            <button id="translate-btn">Translate Text</button>
+            <button id="copy-btn">Copy Translation</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
